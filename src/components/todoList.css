@@ -1,0 +1,50 @@
+.wrapper {
+    
+    width: 54%;
+    margin: 0 auto;
+    position: relative;
+    top: -1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.newtask {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+    margin-bottom: 1rem;
+}
+
+.newtask input {
+    width: 90%;
+    border: .5px solid black;
+    border-radius: 8px;
+    color: #808080;
+    background-color: #333333;
+    padding: 1rem;
+    
+}
+
+.newtask button{
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border: none;
+    border-radius: 8px;
+    background-color: #1E6F9F;
+    color: #F2F2F2;
+    font-size: bold;
+}
+
+@media screen and (max-width:390px) {
+    .wrapper {
+    
+        width: 90%;
+    }
+    .newtask button{
+        width: 39%;}
+}
